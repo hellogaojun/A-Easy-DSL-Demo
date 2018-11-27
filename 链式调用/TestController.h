@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TestController.h
 //  链式调用
 //
 //  Created by gaojun on 2018/10/27.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow *window;
-
+@interface TestController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
