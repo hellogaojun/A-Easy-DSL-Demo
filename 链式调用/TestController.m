@@ -8,6 +8,7 @@
 
 #import "TestController.h"
 #import "ViewMaker.h"
+#import "UIView+Quick.h"
 
 @interface TestController ()
 
@@ -22,6 +23,7 @@
     UIView *aView = AllocA(UIView).with.position(50,100).size(100,100).bgColor([UIColor redColor]).intoView(self.view);
     aView.backgroundColor = [UIColor orangeColor];
     
+    UIView *view = UIView.new.position(50,300).size(100,100).bgColor([UIColor redColor]).intoView(self.view);
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

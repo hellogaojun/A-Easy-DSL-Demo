@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E13DC72121B1106C004B7686 /* NSDictionary+Quick.m in Sources */ = {isa = PBXBuildFile; fileRef = E13DC72021B1106C004B7686 /* NSDictionary+Quick.m */; };
+		E13DC72421B11A9B004B7686 /* UIView+Quick.m in Sources */ = {isa = PBXBuildFile; fileRef = E13DC72321B11A9B004B7686 /* UIView+Quick.m */; };
 		E1E9CE6D21AD39CF00DA18CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E9CE6C21AD39CF00DA18CD /* AppDelegate.m */; };
 		E1E9CE7021AD39CF00DA18CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E9CE6F21AD39CF00DA18CD /* ViewController.m */; };
 		E1E9CE7321AD39CF00DA18CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E9CE7121AD39CF00DA18CD /* Main.storyboard */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E13DC71F21B1106C004B7686 /* NSDictionary+Quick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Quick.h"; sourceTree = "<group>"; };
+		E13DC72021B1106C004B7686 /* NSDictionary+Quick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Quick.m"; sourceTree = "<group>"; };
+		E13DC72221B11A9B004B7686 /* UIView+Quick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Quick.h"; sourceTree = "<group>"; };
+		E13DC72321B11A9B004B7686 /* UIView+Quick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Quick.m"; sourceTree = "<group>"; };
 		E1E9CE6821AD39CF00DA18CD /* 链式调用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "链式调用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E9CE6B21AD39CF00DA18CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E1E9CE6C21AD39CF00DA18CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +124,10 @@
 				E1E9CEA221AD5F1B00DA18CD /* TestController.xib */,
 				E1E9CE9D21AD424600DA18CD /* ViewMaker.h */,
 				E1E9CE9E21AD424600DA18CD /* ViewMaker.m */,
+				E13DC72221B11A9B004B7686 /* UIView+Quick.h */,
+				E13DC72321B11A9B004B7686 /* UIView+Quick.m */,
+				E13DC71F21B1106C004B7686 /* NSDictionary+Quick.h */,
+				E13DC72021B1106C004B7686 /* NSDictionary+Quick.m */,
 				E1E9CE7121AD39CF00DA18CD /* Main.storyboard */,
 				E1E9CE7421AD39D000DA18CD /* Assets.xcassets */,
 				E1E9CE7621AD39D000DA18CD /* LaunchScreen.storyboard */,
@@ -280,6 +290,8 @@
 				E1E9CE9F21AD424600DA18CD /* ViewMaker.m in Sources */,
 				E1E9CE7B21AD39D000DA18CD /* main.m in Sources */,
 				E1E9CE6D21AD39CF00DA18CD /* AppDelegate.m in Sources */,
+				E13DC72121B1106C004B7686 /* NSDictionary+Quick.m in Sources */,
+				E13DC72421B11A9B004B7686 /* UIView+Quick.m in Sources */,
 				E1E9CEA321AD5F1B00DA18CD /* TestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
